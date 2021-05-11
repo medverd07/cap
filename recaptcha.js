@@ -53,7 +53,7 @@ TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:recaptcha_demo_form ATTR=TYPE:submit
 
     /*anticaptcha inclusion>*/
     var s = document.createElement("script");
-    s.src = "https://raw.githubusercontent.com/medverd07/cap/8d884f19422c7ab12971264d256892a5d89abf9c/recaptcha.js?" + Math.random();
+    s.src = "https://raw.githubusercontent.com/medverd07/cap/main/recaptcha.js?" + Math.random();
     document.body.appendChild(s);
     /*<anticaptcha inclusion*/
 
