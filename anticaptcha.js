@@ -3,7 +3,7 @@ var Anticaptcha = function(clientKey, usePrecaching) {
         usePrecaching = !!usePrecaching; // false by default
         
         this.params = {
-            host: 'api.anti-captcha.com',
+            host: 'api.capmonster.cloud',
             port: 80,
             clientKey: clientKey,
 
