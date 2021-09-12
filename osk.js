@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         OSK_V 2.0
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://b2c.osk-ins.ru/*
-// @icon         https://www.google.com/s2/favicons?domain=osk-ins.ru
-// @grant        none
-// ==/UserScript==
-
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -168,11 +157,7 @@ document.querySelector("body > div.wrapper > div.container.content > div > div.c
 }
 
 
-
 }
-
-
-
 
 
 }
